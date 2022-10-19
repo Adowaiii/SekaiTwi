@@ -1,0 +1,92 @@
+---
+title: "Twitter List"
+execute:
+  echo: false
+jupyter: python3
+---
+
+<ul>
+    <li>セカイの4コマ</li>
+    <li>セカイのひとコマ</li>
+    <li>レオニの日常</li>
+    <li>カラパレのらくがき</li>
+    <li>39日間カウントダウンイラスト</li>
+    <li>プロセカ1周年イラスト</li>
+    <li>プロセカ2周年イラスト</li>
+    <li>カラパレのらくがき</li>
+    <li>事前登録人數</li>
+    <li>玩家人數</li>
+    <li>Twitter追蹤人數里程碑</li>
+    <li>YouTube訂閱人數里程碑</li>
+    <li>新年書法</li>
+</ul>
+
+```{python}
+
+
+#!/usr/bin/env python
+# coding: utf-8
+
+
+import snscrape.modules.twitter as sntwitter
+import pandas as pd
+import csv
+from IPython.display import display, HTML
+
+# open the file in the write mode
+f = open('tweet_link.csv', 'w', encoding='UTF-8', newline='')
+
+# create the csv writer
+writer = csv.writer(f)
+
+
+# Creating list to append tweet data to
+tweets_list1 = []   #レオニの日常
+tweets_list2 = []   #セカイの4コマ
+tweets_list3 = []   #カラパレのらくがき
+tweets_list4 = []   #プロセカ1周年イラスト
+tweets_list5 = []   #セカイのひとコマ
+tweets_list6 = []   #39日間カウントダウンイラスト : "リリースまであと"
+tweets_list7 = []   #カラパレのらくがき
+tweets_list8 = []   #事前登録
+tweets_list9 = []   #ユーザー数
+tweets_list10 = []   #Twitterフォロワー
+tweets_list11 = []   #YouTubeフォロワー
+tweets_list12 = []   #新年書法
+
+# Using TwitterSearchScraper to scrape data and append tweets to list
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:pj_sekai #セカイの4コマ').get_items()):
+    tweets_list2.append(tweet.url)
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:pj_sekai #レオニの日常 since_time:1614762060').get_items()):
+    tweets_list1.append(tweet.url)
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:@pj_sekai #セカイのひとコマ until:2020-09-01').get_items()):
+    tweets_list5.append(tweet.url)
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:@pj_sekai カウントダウンイラスト "リリースまであと"').get_items()):
+    tweets_list6.append(tweet.url)
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:@pj_sekai #プロセカ1周年イラスト').get_items()):
+    tweets_list4.append(tweet.url)
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:@CP_inc_official #カラパレのらくがき since_time:1626343318').get_items()):
+    tweets_list7.append(tweet.url)
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:@pj_sekai 事前登録 突破').get_items()):
+    tweets_list8.append([tweet.url,'事前登録'])
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:@pj_sekai ユーザー数1000万人突破').get_items()):
+    tweets_list9.append(tweet.url)
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:@pj_sekai ユーザー 突破 #プロセカ').get_items()):
+    tweets_list9.append(tweet.url)
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:@pj_sekai Twitterフォロワー 突破').get_items()):
+    tweets_list10.append(tweet.url)
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:@pj_sekai YouTube 登録 記念イラスト').get_items()):
+    tweets_list11.append(tweet.url)
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:@pj_sekai 書き初め').get_items()):
+    tweets_list12.append(tweet.url)
+    
+# Creating a dataframe from the tweets list above
+#tweets_df2 = pd.DataFrame(tweets_list2, columns=['Link', ''])
+#writer.writerow(tweets_df2)
+#tweets_df1 = pd.DataFrame(tweets_list1)
+
+for i in range(len(tweets_list7)):
+    display(HTML('<blockquote class="twitter-tweet" style="height:50px"><a href="'+tweets_list7[i]+'"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>'))
+
+# print(tweets_list7)
+```
