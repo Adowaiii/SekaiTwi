@@ -1,0 +1,82 @@
+[
+  {
+    "listing": "/twitter.html",
+    "items": [
+      "/twi_JP/5-39CD.html",
+      "/twi_JP/10-TwiFollow.html",
+      "/twi_JP/11-YTsub.html",
+      "/twi_JP/4-CPillu.html",
+      "/twi_JP/1-4coma.html",
+      "/twi_JP/2-1coma.html",
+      "/twi_JP/6-1stAnni.html",
+      "/twi_JP/7-2ndAnni.html",
+      "/twi_JP/9-Player.html",
+      "/twi_JP/3-LNnichijou.html",
+      "/twi_JP/8-PreReg.html",
+      "/twi_JP/13-SummerPhoto.html",
+      "/twi_JP/12-NYwrite.html"
+    ]
+  },
+  {
+    "listing": "/youtube.html",
+    "items": [
+      "/yt/4-25Live.html",
+      "/yt/1-25radio.html",
+      "/yt/14-2ndAnniPianoMedley.html",
+      "/yt/15-2ndAnniRe.html",
+      "/yt/9-MMJlive.html",
+      "/yt/10-25wSub.html",
+      "/yt/5-SummerRadio.html",
+      "/yt/8-puciseka.html",
+      "/yt/6-1stAnniCD.html",
+      "/yt/16-2anniCD.html",
+      "/yt/11-AprilFool.html",
+      "/yt/12-SekaiStation.html",
+      "/yt/7-VBSarchive..html",
+      "/yt/2-AfterTalk.html",
+      "/yt/3-StoryTheater.html",
+      "/yt/13-KMKfes.html"
+    ]
+  },
+  {
+    "listing": "/projects/twi_JP.html",
+    "items": [
+      "/projects/twi_JP/5-39CD.html",
+      "/projects/twi_JP/10-TwiFollow.html",
+      "/projects/twi_JP/11-YTsub.html",
+      "/projects/twi_JP/4-CPillu.html",
+      "/projects/twi_JP/1-4coma.html",
+      "/projects/twi_JP/2-1coma.html",
+      "/projects/twi_JP/6-1stAnni.html",
+      "/projects/twi_JP/7-2ndAnni.html",
+      "/projects/twi_JP/9-Player.html",
+      "/projects/twi_JP/3-LNnichijou.html",
+      "/projects/twi_JP/8-PreReg.html",
+      "/projects/twi_JP/13-SummerPhoto.html",
+      "/projects/twi_JP/12-NYwrite.html",
+      "/projects/twi_JP/14-Festival.html",
+      "/projects/twi_JP/15-Special.html"
+    ]
+  },
+  {
+    "listing": "/projects/youtube.html",
+    "items": [
+      "/projects/yt/4-25Live.html",
+      "/projects/yt/1-25radio.html",
+      "/projects/yt/14-2ndAnniPianoMedley.html",
+      "/projects/yt/15-2ndAnniRe.html",
+      "/projects/yt/9-MMJlive.html",
+      "/projects/yt/10-25wSub.html",
+      "/projects/yt/5-SummerRadio.html",
+      "/projects/yt/8-puciseka.html",
+      "/projects/yt/6-1stAnniCD.html",
+      "/projects/yt/16-2anniCD.html",
+      "/projects/yt/11-AprilFool.html",
+      "/projects/yt/12-SekaiStation.html",
+      "/projects/yt/7-VBSarchive..html",
+      "/projects/yt/2-AfterTalk.html",
+      "/projects/yt/3-StoryTheater.html",
+      "/projects/yt/13-KMKfes.html"
+    ]
+  }
+]

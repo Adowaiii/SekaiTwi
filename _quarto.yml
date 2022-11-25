@@ -1,13 +1,13 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "SekaiTwi"
+  title: "プロセカ"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      - href: about.qmd
+        text: About
 
 format:
   html:

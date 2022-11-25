@@ -3,3 +3,4 @@ title: "About"
 ---
 
 About this site
+A database about all IRL game related project I keep track of.
