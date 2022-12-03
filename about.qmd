@@ -1,6 +1,7 @@
 ---
-title: "About"
+title: "About this site"
 ---
 
-About this site
-A database about all IRL game related project I keep track of.
+::: {.callout-important}
+This is a fanmade website maintained only by myself for research purpose. It does not affiliate with any organisation or company. All credits go to including but not limited to Sega, Colorful Palette and Crypton. 
+:::

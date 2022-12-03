@@ -3,6 +3,7 @@ title: 思い出夏フォト
 execute:
   echo: false
 jupyter: python3
+catagories: [單篇]
 ---
 
 <br>

@@ -3,16 +3,18 @@ title: 39日間カウントダウンイラスト
 execute:
   echo: false
 jupyter: python3
+catagories: [紀念]
 ---
 
 <div id="toc_container" style="border:2px turquoise dashed;padding:0px 12px 0px 12px;border-radius:8px;background-color:rgba(64,224,208, 0.3) !important;">
 <p class="toc_title">Contents</p>
 <ul class="toc_list">
-<li><a href="#Header1">倒數第39~30天</a></li>
-<li><a href="#Header11">倒數第29~20天</a></li>
+<li><a href="#Header1">第1~5天</a></li>
+<li><a href="#Header11">倒數第9~0天</a></li>
+<li><a href="#Header31">倒數第29~20天</a></li>
 <li><a href="#Header21">倒數第19~10天</a></li>
-<li><a href="#Header31">倒數第9~0天</a></li>
-<li><a href="#Header41">第1~5天</a></li>
+<li><a href="#Header41">倒數第39~30天</a></li>
+
 </ul>
 </div>
 

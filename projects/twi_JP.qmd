@@ -3,11 +3,14 @@ title: ""
 listing:
   contents: twi_JP
   type: table
-  categories: true
+  categories: false
+  sort: [catagories asc]
+  field-display-names:
+    title: "名稱"
+    catagories: "分類"
   sort-ui: false
   filter-ui: false
-  fields: [title]
-  categories: false
+  fields: [title, catagories]
 page-layout: article
 
 ---

@@ -3,6 +3,7 @@ title: レオニの日常
 execute:
   echo: false
 jupyter: python3
+catagories: [不定期更新]
 ---
 
 
