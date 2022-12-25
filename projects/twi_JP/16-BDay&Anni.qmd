@@ -187,7 +187,7 @@ format:
   </div>
   <!-- Tab content -->
   <div id="8-2020" class="tabcontent">
-  <blockquote class="twitter-tweet" style="height:50px"><a href="https://twitter.com/pj_sekai/status/1467509073444704261?s=20&t=soGoTqrO4mll1nfF3AMjCA"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js](https://twitter.com/pj_sekai/status/1335237518887854087?s=20&t=G78JaN3FkuGUDYrW76-Jog)" charset="utf-8"></script> 
+  <blockquote class="twitter-tweet" style="height:50px"><a href="https://twitter.com/pj_sekai/status/1335237518887854087?s=20&t=Ove7ynFGvwuga8cN98d09g"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
   </div>
   <div id="8-2021" class="tabcontent">
   <blockquote class="twitter-tweet" style="height:50px"><a href="https://twitter.com/pj_sekai/status/1467509073444704261?s=20&t=soGoTqrO4mll1nfF3AMjCA"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 

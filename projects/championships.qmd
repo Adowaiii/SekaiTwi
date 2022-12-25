@@ -1,7 +1,7 @@
 
 
-- 2020春
-- 2020秋
+- <a href="https://project-sekai.rage-esports.jp/" target="_blank">2020冬</a>
 - 2021春
-- 2021秋
-- 2022春
+- <a href="https://pjsekai.sega.jp/championship2021/index.html" target="_blank">2021秋</a>
+- <a href="https://pjsekai.sega.jp/championship2022spring/index.html" target="_blank">2022春</a>
+- <a href="https://pjsekai.sega.jp/championship2022autumn/index.html" target="_blank">2022秋</a>
