@@ -550,11 +550,11 @@ format:
   /*background-color: #2196F3;*/
   border-radius: 25px;
   color: #000000;
-  width: 120px;
+  width: 110px;
   line-height: 40px;
-  font-size:10px;
+  font-size:12px;
   text-align: center;
-  margin: 5px;
+  margin: 3px;
   display: none; /* Hidden by default */
   cursor: pointer;
 }
@@ -567,7 +567,7 @@ format:
   filter: drop-shadow(0px 0px 3px darkgrey);
   -webkit-box-shadow:inset 0px 0px 0px 2px #888;
   -moz-box-shadow:inset 0px 0px 0px 2px #888;
-  box-shadow:inset 0px 0px 0px 2px #f1f1f1
+  box-shadow:inset 0px 0px 0px 2px #f1f1f1;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -614,9 +614,9 @@ format:
 .list-content {
   background-color: #fefefe;
   margin: 0% auto; /* 15% from the top and centered */
-  padding: 20px;
+  padding-top: 20px;
   /*border: 1px solid #888;*/
-  width: 90%; /* Could be more or less, depending on screen size */
+  width: 100%; /* Could be more or less, depending on screen size */
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s; 
 }
@@ -663,7 +663,11 @@ format:
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6px 12px;
+}
+
+.twitter-tweet {
+  margin-left:auto;
+  margin-right:auto;
 }
 
 
