@@ -3,15 +3,16 @@ project:
   output-dir: docs
 
 website:
-  title: "プロセカ"
+  title: "プロセカ資訊"
   navbar:
+    background: info
     right:
       - href: about.qmd
         text: About
 
 format:
   html:
-    theme: cosmo
+    theme: lumen
     css: styles.css
     toc: true
 

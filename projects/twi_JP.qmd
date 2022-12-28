@@ -11,6 +11,7 @@ listing:
   sort-ui: false
   filter-ui: false
   fields: [title, catagories]
+  table-hover: true
 page-layout: article
 
 ---

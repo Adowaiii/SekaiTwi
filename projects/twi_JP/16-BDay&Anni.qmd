@@ -446,6 +446,9 @@ format:
   <div id="22-2021" class="tabcontent">
   <blockquote class="twitter-tweet" style="height:50px"><a href="https://twitter.com/pj_sekai/status/1475119209931759623?s=20&t=Nuab3zVId4iie6eokLOPQg"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
   </div>
+  <div id="22-2022" class="tabcontent">
+  <blockquote class="twitter-tweet" style="height:50px"><a href="https://twitter.com/pj_sekai/status/1607390907342508034?s=20&t=ELL1cR35eavgFMk8nCoKJQ"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+  </div>
 </div>
 </div>
 
@@ -467,6 +470,9 @@ format:
   </div>
   <div id="23-2021" class="tabcontent">
   <blockquote class="twitter-tweet" style="height:50px"><a href="https://twitter.com/pj_sekai/status/1475119209931759623?s=20&t=Nuab3zVId4iie6eokLOPQg"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+  </div>
+  <div id="23-2022" class="tabcontent">
+  <blockquote class="twitter-tweet" style="height:50px"><a href="https://twitter.com/pj_sekai/status/1607390907342508034?s=20&t=ELL1cR35eavgFMk8nCoKJQ"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
   </div>
 </div>
 </div>
