@@ -21,32 +21,32 @@ format:
 
 <!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
 <div class="container">
-  <div class="filterDiv vs" style="background-color: #33CCBB;">初音ミク</div>
-  <div class="filterDiv vs" style="background-color: #FFCC11;">鏡音リン</div>
-  <div class="filterDiv vs" style="background-color: #FFEE11;">鏡音レン</div>
-  <div class="filterDiv vs" style="background-color: #FFBBCC;">巡音ルカ</div>
-  <div class="filterDiv vs" style="background-color: #DD4444;">MEIKO</div>
-  <div class="filterDiv vs" style="background-color: #3366CC;">KAITO</div>
-  <div class="filterDiv ln" style="background-color: #33AAEE;">星乃一歌</div>
-  <div class="filterDiv ln" style="background-color: #FFDD44;">天馬咲希</div>
-  <div class="filterDiv ln" style="background-color: #EE6666;">望月穗波</div>
-  <div class="filterDiv ln" style="background-color: #BBDD22;">日野森志步</div>
-  <div class="filterDiv mmj" style="background-color: #FFCCAA;">花里みのり</div>
-  <div class="filterDiv mmj" style="background-color: #99CCFF;">桐谷遙</div>
-  <div class="filterDiv mmj" style="background-color: #FFAACC;">桃井愛莉</div>
-  <div class="filterDiv mmj" style="background-color: #99EEDD;">日野森雫</div>
-  <div class="filterDiv vbs" style="background-color: #FF6699;">小豆沢こはね</div>
-  <div class="filterDiv vbs" style="background-color: #00BBDD;">白石杏</div>
-  <div class="filterDiv vbs" style="background-color: #FF7722;">東雲彰人</div>
-  <div class="filterDiv vbs" style="background-color: #0077DD;">青柳冬弥</div>
-  <div class="filterDiv ws" style="background-color: #FFBB00;">天馬司</div>
-  <div class="filterDiv ws" style="background-color: #FF66BB;">鳳えむ</div>
-  <div class="filterDiv ws" style="background-color: #33DD99;">草薙寧々</div>
-  <div class="filterDiv ws" style="background-color: #BB88EE;">神代類</div>
-  <div class="filterDiv 25ji" style="background-color: #BB6688;">宵崎奏</div>
-  <div class="filterDiv 25ji" style="background-color: #8888CC;">朝比奈まふゆ</div>
-  <div class="filterDiv 25ji" style="background-color: #CCAA88;">東雲絵名</div>
-  <div class="filterDiv 25ji" style="background-color: #DDAACC;">曉山瑞希</div>
+  <div class="badge rounded-pill rounded-pill vs" style="background-color: #33CCBB;">初音ミク</div>
+  <div class="badge rounded-pill vs" style="background-color: #FFCC11;">鏡音リン</div>
+  <div class="badge rounded-pill vs" style="background-color: #FFEE11;">鏡音レン</div>
+  <div class="badge rounded-pill vs" style="background-color: #FFBBCC;">巡音ルカ</div>
+  <div class="badge rounded-pill vs" style="background-color: #DD4444;">MEIKO</div>
+  <div class="badge rounded-pill vs" style="background-color: #3366CC;">KAITO</div>
+  <div class="badge rounded-pill ln" style="background-color: #33AAEE;">星乃一歌</div>
+  <div class="badge rounded-pill ln" style="background-color: #FFDD44;">天馬咲希</div>
+  <div class="badge rounded-pill ln" style="background-color: #EE6666;">望月穗波</div>
+  <div class="badge rounded-pill ln" style="background-color: #BBDD22;">日野森志步</div>
+  <div class="badge rounded-pill mmj" style="background-color: #FFCCAA;">花里みのり</div>
+  <div class="badge rounded-pill mmj" style="background-color: #99CCFF;">桐谷遙</div>
+  <div class="badge rounded-pill mmj" style="background-color: #FFAACC;">桃井愛莉</div>
+  <div class="badge rounded-pill mmj" style="background-color: #99EEDD;">日野森雫</div>
+  <div class="badge rounded-pill vbs" style="background-color: #FF6699;">小豆沢こはね</div>
+  <div class="badge rounded-pill vbs" style="background-color: #00BBDD;">白石杏</div>
+  <div class="badge rounded-pill vbs" style="background-color: #FF7722;">東雲彰人</div>
+  <div class="badge rounded-pill vbs" style="background-color: #0077DD;">青柳冬弥</div>
+  <div class="badge rounded-pill ws" style="background-color: #FFBB00;">天馬司</div>
+  <div class="badge rounded-pill ws" style="background-color: #FF66BB;">鳳えむ</div>
+  <div class="badge rounded-pill ws" style="background-color: #33DD99;">草薙寧々</div>
+  <div class="badge rounded-pill ws" style="background-color: #BB88EE;">神代類</div>
+  <div class="badge rounded-pill 25ji" style="background-color: #BB6688;">宵崎奏</div>
+  <div class="badge rounded-pill 25ji" style="background-color: #8888CC;">朝比奈まふゆ</div>
+  <div class="badge rounded-pill 25ji" style="background-color: #CCAA88;">東雲絵名</div>
+  <div class="badge rounded-pill 25ji" style="background-color: #DDAACC;">曉山瑞希</div>
 </div>
 
 <div id="1" class="list">
@@ -551,13 +551,11 @@ format:
   overflow: hidden;
 }
 
-.filterDiv {
+.badge {
   float: left;
-  /*background-color: #2196F3;*/
-  border-radius: 25px;
   color: #000000;
   width: 110px;
-  line-height: 40px;
+  line-height: 30px;
   font-size:12px;
   text-align: center;
   margin: 3px;
@@ -565,11 +563,11 @@ format:
   cursor: pointer;
 }
 
-.filterDiv:hover{
+.badge:hover{
   filter: drop-shadow(2px 2px 2px darkgrey);
 }
 
-.filterDiv.chara-active{
+.badge.chara-active{
   filter: drop-shadow(0px 0px 3px darkgrey);
   -webkit-box-shadow:inset 0px 0px 0px 2px #888;
   -moz-box-shadow:inset 0px 0px 0px 2px #888;
@@ -688,7 +686,7 @@ filterSelection("all");
 
 function filterSelection(c) {
   var x, i;
-  x = document.querySelectorAll('.filterDiv');
+  x = document.querySelectorAll('.badge');
   var lists = document.querySelectorAll('.list');
 
   if (c == "all") c = "";

@@ -5,14 +5,17 @@ project:
 website:
   title: "プロセカ資訊"
   navbar:
-    background: info
+    light: 
+      background: info
     right:
       - href: about.qmd
         text: About
 
 format:
   html:
-    theme: lumen
+    theme: 
+      light: lumen
+      dark: [solar, theme-dark.scss]
     css: styles.css
     toc: true
 

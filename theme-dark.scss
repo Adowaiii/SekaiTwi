@@ -1,0 +1,10 @@
+/*-- scss:defaults --*/
+// Font Colors
+
+.content ul a, #quarto-content li, .link{
+    color: #bed3dd !important;
+}
+
+.content ul a::before, .link::before{
+    opacity: 0.3 !important;
+}
